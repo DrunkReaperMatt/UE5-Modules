@@ -10,7 +10,7 @@ public class ModulesSandbox : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "CharacterStats" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "CharacterStats", "DialogManager" });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
